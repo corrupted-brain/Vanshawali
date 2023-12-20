@@ -1,0 +1,10 @@
+---
+name: The first person
+gender: male
+bio: some bio
+image: images/placeholder.png
+spouse:
+  name: Name of Wife
+children:
+  - name: First Child
+  - name: Second Child

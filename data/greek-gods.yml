@@ -1,0 +1,551 @@
+---
+# yamllint disable rule:line-length
+name: पिडाउ भाट
+bio: 'मुल पुर्खा'
+children:
+  - name: सगती देव 
+    children:
+     - name: वासुदेव
+       children:
+        - name: हर्केश
+          children:
+            - name: विर्मान
+              children:
+                - name: माधी
+                  children:
+                    - name: लछी
+                      children:
+                        - name: नारायण
+                          children:
+                            - name: वलिभद्र
+                              gender: female
+                            - name: दात्तिराम
+                              children:
+                                - name: चन्द्रकान्त
+                                  children:
+                                    - name: सुशील
+                                      bio: '<br>श्रीमती: रुवी पाण्डेय'
+                                      children:
+                                        - name: ओम प्रकाश
+                                - name: तारा दत्त 
+                                  children:
+                                    - name: अशोक
+                    - name: वालाकीसन
+                      gender: female
+                    - name: रघुनाथ
+                      gender: female
+                    - name: राधा
+                      children:
+                        - name: नन्द लाल
+                          gender: female
+                        - name: दत्तराम
+                          gender: female
+                        - name: लक्ष्मी दत्त
+                          children:
+                            - name: कृष्ण
+                              children:
+                                - name: रमेश
+                                - name: दिनेश
+                            - name: जयराज
+                              children:
+                                - name: भोज
+                                - name: सन्तोष
+                            - name: यज्ञराज
+                              children:
+                                - name: निराजन
+                            - name: श्याम
+                            - name: प्रकाश
+                            - name: दीप
+                        - name: मोति
+                          gender: female
+                        - name: सीता
+                          gender: female
+
+                - name: धर्म्या खत्री #confusion
+                  children:
+                    - name: अमर सिंह 
+                      children:
+                        - name: नरवा
+                          gender: female
+                        - name: दत्ती
+                          children:
+                            - name: बहादुर
+                              children:
+                                - name: शिवराज
+                                  children:
+                                    - name: यादव
+                                    - name: आशिष
+                                - name: हरि
+                                  children:
+                                    - name: भुवन
+                            - name: कृष्ण
+                              children:
+                                - name: नवराज
+                                  children:
+                                    - name: हेमन्त
+                                - name: गणेश
+                                  children:
+                                    - name: रिदम
+                                - name: दीपक
+                                  children:
+                                    - name: अनिश
+                                - name: प्रेम
+                    - name: काम्वा #confusion
+                      children:
+                        - name: रग्वा
+                          gender: female
+        - name: ज्यामी
+          children:
+            - name: रामी
+              children:
+                - name: दशरथ
+                  children:
+                    - name: विजयराम
+                      children:
+                        - name: मनिराम
+                          children:
+                            - name: महान्त
+                              children:
+                                - name: गोविन्द
+                                  children:
+                                    - name: विष्णुदत्त
+                                      children:
+                                        - name: तारा
+                                    - name: लक्ष्मीदत्त
+                                      children:
+                                        - name: मोहन
+                                        - name: दिपक
+                                    - name: राधा
+                                      children:
+                                        - name: अशोक
+                                    - name: भाल्चंद्र
+                                      children:
+                                        - name: नरेश
+                                        - name: महेश
+                                    - name: खेमराज
+                                      children:
+                                        - name: यज्ञराज
+                                        - name: निर्मल
+                                    - name: लोकराज
+                                      children:
+                                        - name: दिनेश
+                                        - name: सूलभ
+                                - name: काशी
+                                  children:
+                                    - name: यज्ञराज
+                                      children:
+                                        - name: भास्कर
+                                    - name: गणेश
+                                      children:
+                                        - name: सक्ष्यम
+                                    - name: महेश
+                                      children:
+                                        - name: नयन
+                                - name: पर्मानन्द
+                                  children:
+                                    - name: निशान्त
+                            - name: जगी
+                              children:
+                                - name: रामचन्द्र
+                                  children:
+                                    - name: लक्ष्मी
+                                      children:
+                                        - name: भुवन
+                                        - name: बिनोद
+                                        - name: सागर
+                            - name: रघुनाथ
+                              children:
+                                - name: भवानी
+                                  children:
+                                    - name: नवराज
+                                    - name: प्रसाद
+                                - name: मोतीराम
+                                  children:
+                                    - name: कैलाश
+                                    - name: यादव
+                                - name: नन्दलाल
+                                  children:
+                                    - name: गोकुल
+                                    - name: हरि
+                        - name: नन्दराम
+                          children:
+                            - name: हरिदत्त
+                              gender: female
+                        - name: टिकाराम
+                          children:
+                            - name: रामदत्त
+                              children:
+                                - name: कोशराज
+                                  children:
+                                    - name: गोकूल
+                                    - name: महेश
+                                - name: मेघराज
+                                  children:
+                                    - name: राजेन्द्र
+                                    - name: हरि
+                                - name: दुर्गा
+                                - name: वाशु
+                            - name: बलदेव
+                              children:
+                                - name: नारायण
+                                  children:
+                                    - name: सिद्धराज
+                                    - name: दिपक
+                                      children:
+                                        - name: प्रसङ्ग
+                                - name: वाणी
+                                  children:
+                                    - name: उपेन्द्र
+                            - name: डम्मरु
+                              children:
+                                - name: हंसराम
+                                  children:
+                                    - name: पंकज
+                                - name: खगराज
+                                  children:
+                                    - name: अनुज
+                                    - name: अनुप
+                                - name: जयराज
+                            - name: पदमराज
+                              children:
+                                - name: प्रकाश
+                                  children:
+                                    - name: रोहन
+                                - name: कृष्ण
+                                  children:
+                                    - name: स्मिथ
+                                - name: पुरुषोत्तम
+                                  children:
+                                    - name: गेहेन्द्र
+                    - name: श्रांत राम  #confusion
+                      gender: female
+                    - name: हरि
+                      children:
+                        - name: चंदरी
+                          gender: female
+                - name: अर्जुन
+                  children:
+                    - name: सिता
+                    - name: परत्यमान
+                      gender: female
+                    - name: राम
+                      gender: female
+                - name: सुका
+                  gender: female
+                - name: नरपति
+                  gender: female
+        - name: मल्टे
+          children:
+            - name: पुरुष
+              children:
+                - name: श्री किशन
+                  children:
+                    - name: रति 
+                      children:
+                        - name: महादेव
+                          gender: female
+                        - name: गोपाल
+                          children:
+                            - name: चेतराम
+                              children:
+                                - name: नारायण
+                            - name: निलकण्ठ
+                              gender: female
+                            - name: नन्दलाल
+                              children:
+                                - name: तुलाराम
+                        - name: दशरथ
+                          children:
+                            - name: लछी
+                              gender: female
+                    - name: बलि
+                      children:
+                        - name: देव
+                          children:
+                            - name: धौलु
+                              children:
+                                - name: खेमराज
+                                  children:
+                                    - name: गणेश
+                                      children:
+                                        - name: सागर
+                                        - name: हिमाल 
+                                - name: मदन
+                                  children:
+                                    - name: यज्ञराज
+                            - name: नारायण
+                              gender: female
+                            - name: जय किशन
+                              children:
+                                - name: धनी राम 
+                                  children:
+                                    - name: रोहित
+                                    - name: कैलाश
+                                - name: जय राज 
+                                  children:
+                                    - name: रमेश
+                        - name: हरिकेश
+                          children:
+                            - name: इश्वोरी
+                            - name: लाल 
+                            - name: राज 
+                            - name: नन्दलाल
+                    - name: काशी
+                      gender: female
+                    - name: हरि
+                      gender: female
+                    - name: पदम्या
+                      gender: female
+  - name: दुर्गा
+    children:
+     - name: गोविन्द
+     - name: जयराम
+     - name: किसनदेव
+       children:
+        - name: कालु
+          children:
+            - name: पति
+              children:
+                - name: गोविन्द #Aputali
+                  gender: female
+                - name: परमा
+                  children:
+                    - name: गंगाराम
+                      children:
+                        - name: यज्ञराज
+                        - name: भुवन
+                    - name: शिवदत्त
+                      children:
+                        - name: खगेश्वोर
+                          children:
+                            - name: टंक प्रसाद
+                            - name: नवीन
+                        - name: गणेश
+                    - name: गुमानी
+                      gender: female
+                    - name: भवानी 
+                      children:
+                        - name: देवराज
+                        - name: खेमराज
+                    - name: टिका
+                      children:
+                        - name: महेश
+                        - name: पुस्कर
+                - name: नरपति #Aputali
+                  gender: female
+            - name: पुर्णानंद
+              children:
+                - name: गंगाराम
+                  children:
+                    - name: टिका
+                      children:
+                        - name: करन
+                          children:
+                            - name: पुस्कर
+                    - name: गुमानी
+                      children:
+                        - name: महानी
+                          children:
+                            - name: महेश
+                            - name: यज्ञराज
+                        - name: कृष्ण
+                          children:
+                            - name: कमल
+                    - name: कान्तु
+                      children:
+                        - name: मदन
+                          children:
+                            - name: हरिस
+                        - name: गोविन्द
+                          gender: female
+                - name: रघुनाथ #Aputali
+                  gender: female
+            - name: मनि
+              children:
+                - name: महन्त #correction
+                  children:
+                    - name: कान्तु
+                      children:
+                        - name: पवन
+                        - name: भोज
+                          children:
+                            - name: दिनेश
+                        - name: गौतम
+                    - name: मदन
+                      children:
+                        - name:
+                        - name:
+                        - name:  
+        - name: कमल्या #Aputali
+          gender: female
+  - name: भगिरथ
+    children:
+     - name: माधव
+       children:
+        - name: भवानी
+          children:
+            - name: शंकर दत्त
+              children:
+                - name: मनि
+                  children:
+                    - name: रञ्‍जित
+                      children:
+                        - name: शोवि #confusion
+                          children:
+                            - name: श्री राम
+                              children:
+                                - name: ललित
+                                  children:
+                                    - name: यज्ञराज
+                                      children:
+                                        - name: दिवस
+                                    - name: गिरि
+                        - name: नारायण
+                          children:
+                            - name: पर्मा
+                              children:
+                                - name: नित्यानन्द
+                                  children:
+                                    - name: राजेश
+                                    - name: भुवन
+                                - name: कृष्ण
+                                  children:
+                                    - name: सुनिल
+                                - name: सिद्ध
+                                  children:
+                                    - name: दिपक
+                                    - name: कमल
+                                - name: प्रकाश
+                                  children:
+                                    - name: विवेक
+                        - name: गंगाराम
+                          children:
+                            - name: जगि
+                              children:
+                                - name: टिका
+                                  children:
+                                    - name: दिपक
+                                      children:
+                                        - name: तारणी
+                                    - name: पुस्पमणि
+                                      children:
+                                        - name: आरोग्य
+                                    - name: प्रमोद
+                                    - name: विमल
+                                - name: पदम
+                                  children:
+                                    - name: चिरायू
+                                    - name: दिर्घायु
+                            - name: वालि
+                              children:
+                                - name: सन्तोष
+                                - name: बिनोद
+                                - name: रवि
+                            - name: राम
+                              children:
+                                - name: लोकराज
+                        - name: हरिभगत
+                          gender: female
+                        - name: चन्दरी
+                          children:
+                            - name: लक्ष्मी दत्त 
+                              children:
+                                - name: नवराज
+                                - name: गणेश
+                                - name: महेश
+                    - name: नरपति
+                      gender: female
+     - name: रघुनाथ
+       children:
+        - name: ठगी
+          children:
+            - name: कालु
+              children:
+                - name: गणपति
+                  children:
+                    - name: बलि
+                      children:
+                        - name: रुद्री
+                          children:
+                            - name: नन्दलाल
+                              children:
+                                - name: भवानी
+                                  children:
+                                    - name: दीपक
+                                    - name: दिनेश
+                                - name: नवराज
+                                - name: यज्ञराज
+                            - name: प्रयाग
+                              children:
+                                - name: हरि
+                                  children:
+                                    - name: कैलाश
+                                    - name: मनोज
+                                - name: राजेन्द्र
+                                  children:
+                                    - name: भुवन
+                                    - name: विवेक
+                                - name: गिरि
+                                  children:
+                                    - name: लोचन
+                                - name: प्रकाश
+                                  children:
+                                    - name: समिर
+                                    - name: विपिन
+                            - name: जगन्नाथ
+                              gender: female   
+                    - name: किण्या
+                      children:
+                        - name: पति
+                          children:
+                            - name: चंदरी
+                              gender: female
+                            - name: रामाकिसन
+                              children:
+                                - name: गजराज
+                                - name: हरेन्द्र
+                                - name: थानेश्वर
+                            - name: देव दत्त
+                              children:
+                                - name: दिपक
+                                - name: सिद्धराज
+                    - name: गुमानी
+                      children:
+                        - name: गोपाल
+                          children:
+                            - name: किसनदेव
+                              children:
+                                - name: राम
+                                  children:
+                                    - name: सिद्धराज
+                                      children:
+                                        - name: जेनिस
+                                    - name: टेकराज
+                                - name: राजेन्द्र
+                                  children:
+                                    - name: नितेश
+                            - name: धर्म देव
+                              children:
+                                - name: मेघ राज
+                                  children:
+                                    - name: रमेश
+                                - name: टेकराज
+                                  children:
+                                    - name: हेमन्त
+                            - name: जयदेव
+                              children:
+                                - name: हिरा
+                                  children:
+                                    - name: क्षितिज
+                                - name: भुवन
+                            - name: डम्मर देव
+                              children:
+                                - name: लछी
+                                  children:
+                                    - name: दिपेश
+                                - name: नेत्र प्रसाद
+                                  children:
+                                    - name: खगराज
+                                    - name: तेज
+                        - name: मनि
+                          gender: female

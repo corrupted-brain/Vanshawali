@@ -1,0 +1,56 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.chart-container svg {
+	display: block;
+}
+
+.chart-bg {
+	fill: #f0f0f0;
+	cursor: move;
+}
+
+.node--has-children {
+	cursor: pointer;
+}
+
+.box {
+	fill: #eee;
+	stroke: #333;
+	stroke-width: 1px;
+}
+
+.box--female {
+	stroke: mediumvioletred;
+	fill: #ffd6ee;
+}
+
+.box--male {
+	fill: #d6ddff;
+	stroke: royalblue;
+}
+
+.node-name,
+.spouse-name {
+	font: 12px sans-serif;
+}
+
+.link {
+	fill: none;
+	stroke-width: 2px;
+}
+
+.expand-icon {
+	font-size: 16px;
+}
+
+.bio-display {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.5);
+}
