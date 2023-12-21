@@ -288,6 +288,9 @@ children:
                           children:
                             - name: इश्वोरी
                             - name: लाल 
+                              children:
+                                - name: दीपक
+                                - name: जनक
                             - name: राज 
                             - name: नन्दलाल
                     - name: काशी
