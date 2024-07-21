@@ -30,7 +30,6 @@ children:
                                 - name: तारा दत्त 
                                   children:
                                     - name: अशोक
-                                      bio: '<br>श्रीमती: पूजा जोशी'
                     - name: वालाकीसन
                       gender: female
                     - name: रघुनाथ
@@ -427,10 +426,8 @@ children:
                             - name: जगि
                               children:
                                 - name: टिका
-                                  bio: 'test'
                                   children:
                                     - name: दिपक
-                                      bio: '<br>श्रीमती: सरस्वती भट्ट'
                                       children:
                                         - name: तारणी
                                     - name: पुस्पमणि
@@ -493,8 +490,6 @@ children:
                                 - name: हरि
                                   children:
                                     - name: कैलाश
-                                      image: images/placeholder.png
-                                      bio: 'Test'
                                     - name: मनोज
                                 - name: राजेन्द्र
                                   children:
