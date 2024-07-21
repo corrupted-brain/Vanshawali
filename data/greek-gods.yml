@@ -482,7 +482,7 @@ children:
                                   children:
                                     - name: वसन्त
                                 - name: यज्ञराज
-                                children:
+                                  children:
                                     - name: विनोद
                                     - name: आशिष
                             - name: प्रयाग
