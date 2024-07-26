@@ -29,6 +29,11 @@ children:
                                 - name: तारा दत्त 
                                   children:
                                     - name: अशोक
+                                      spouse: 
+                                        name: Puja Joshi
+                                      bio: Friend
+                                      image: images/placeholder.png
+                                      
                     - name: वालाकीसन
                       gender: female
                     - name: रघुनाथ
