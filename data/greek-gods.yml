@@ -155,6 +155,8 @@ children:
                                     - name: लक्ष्मी
                                       children:
                                         - name: भुवन
+                                          children:
+                                            - name: प्रिन्स
                                         - name: बिनोद
                                         - name: सागर
                             - name: रघुनाथ
@@ -192,6 +194,9 @@ children:
                                     - name: हरि
                                 - name: दुर्गा
                                 - name: वाशु
+                                  children:
+                                    - name: गौरव
+                                    - name: सौरभ
                             - name: बलदेव
                               children:
                                 - name: नारायण
@@ -256,6 +261,7 @@ children:
                             - name: चेतराम
                               children:
                                 - name: नारायण
+                                  gender: female
                             - name: निलकण्ठ
                               gender: female
                             - name: नन्दलाल
@@ -520,6 +526,8 @@ children:
                             - name: रामाकिसन
                               children:
                                 - name: गजराज
+                                  children:
+                                    - name: पंकज
                                 - name: हरेन्द्र
                                 - name: थानेश्वर
                             - name: देव दत्त
