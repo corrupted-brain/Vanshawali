@@ -32,5 +32,13 @@
 <body>
 	<main id="tree" class="chart-container"></main>
 	<div id="bio" class="bio-display"></div>
+	<!-- Modal Structure -->
+<div id="profileModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px; border:1px solid #333; z-index:1000;">
+    <span onclick="closeModal()" style="cursor:pointer; float:right; font-size:20px;">&times;</span>
+    <h3 id="modalName"></h3>
+    <img id="modalPhoto" src="" alt="Profile Photo" style="width:100px; height:100px; border-radius:50%; display:none;">
+    <p id="modalDetails"></p>
+</div>
+
 </body>
 </html>
