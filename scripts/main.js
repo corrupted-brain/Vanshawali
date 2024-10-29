@@ -347,15 +347,42 @@ $(() => {
 		return `M${d.y},${d.x} H${d.y + hy} V${s.x} H${s.y}`;
 	}
 
-	// Toggle children on click.
-	function click(d) {
-		if (d.children) {
-			d._children = d.children;
-			d.children = null;
-		} else {
-			d.children = d._children;
-			d._children = null;
-		}
-		update(d);
-	}
+// Toggle children on click and open modal for details
+function click(d) {
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+    } else {
+        d.children = d._children;
+        d._children = null;
+    }
+
+    // Open modal with the family member's details
+    const name = d.data.name;
+    const details = d.data.bio || "No additional details available."; // Default message if no bio
+    const photoUrl = d.data.photo || ''; // Set photo URL if available, otherwise ''
+
+    openModal(name, details, photoUrl);
+    update(d);
+}
+
+// Modal handling functions
+function openModal(name, details, photoUrl) {
+    document.getElementById('modalName').innerText = name;
+    document.getElementById('modalDetails').innerText = details;
+    const modalPhoto = document.getElementById('modalPhoto');
+    if (photoUrl) {
+        modalPhoto.src = photoUrl;
+        modalPhoto.style.display = 'block';
+    } else {
+        modalPhoto.style.display = 'none';
+    }
+    document.getElementById('profileModal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('profileModal').style.display = 'none';
+}
+// Test
+	
 });
