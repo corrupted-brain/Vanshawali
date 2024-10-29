@@ -348,6 +348,7 @@ $(() => {
 	}
 
 // Toggle children on click and open modal for details
+// Toggle children on click.
 function click(d) {
     if (d.children) {
         d._children = d.children;
@@ -356,15 +357,9 @@ function click(d) {
         d.children = d._children;
         d._children = null;
     }
-
-    // Open modal with the family member's details
-    const name = d.data.name;
-    const details = d.data.bio || "No additional details available."; // Default message if no bio
-    const photoUrl = d.data.photo || ''; // Set photo URL if available, otherwise ''
-
-    openModal(name, details, photoUrl);
     update(d);
 }
+
 
 
 	
