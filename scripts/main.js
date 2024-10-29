@@ -366,23 +366,6 @@ function click(d) {
     update(d);
 }
 
-// Modal handling functions
-function openModal(name, details, photoUrl) {
-    document.getElementById('modalName').innerText = name;
-    document.getElementById('modalDetails').innerText = details;
-    const modalPhoto = document.getElementById('modalPhoto');
-    if (photoUrl) {
-        modalPhoto.src = photoUrl;
-        modalPhoto.style.display = 'block';
-    } else {
-        modalPhoto.style.display = 'none';
-    }
-    document.getElementById('profileModal').style.display = 'block';
-}
 
-function closeModal() {
-    document.getElementById('profileModal').style.display = 'none';
-}
-// Test
 	
 });
