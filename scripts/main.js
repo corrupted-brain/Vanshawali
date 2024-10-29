@@ -347,20 +347,15 @@ $(() => {
 		return `M${d.y},${d.x} H${d.y + hy} V${s.x} H${s.y}`;
 	}
 
-// Toggle children on click and open modal for details
-// Toggle children on click.
-function click(d) {
-    if (d.children) {
-        d._children = d.children;
-        d.children = null;
-    } else {
-        d.children = d._children;
-        d._children = null;
-    }
-    update(d);
-}
-
-
-
-	
+	// Toggle children on click.
+	function click(d) {
+		if (d.children) {
+			d._children = d.children;
+			d.children = null;
+		} else {
+			d.children = d._children;
+			d._children = null;
+		}
+		update(d);
+	}
 });
